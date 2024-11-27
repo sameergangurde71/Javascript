@@ -6,7 +6,7 @@ console.log(null == 0); //false
 console.log(null >= 0); //true
 
 // The reason is that the equality check == and comparison > <> >= <= work differently in JS.
-//comparison convert null to a number and treatins as a 0
+//comparison convert null to a number and treated as a 0
 //that's why line 6 is console.log(null >= 0) is true and console.log(null > 0); is false
 
 
